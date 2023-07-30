@@ -1,0 +1,43 @@
+* {
+  padding: 2px;
+}
+button {
+  width: 10em;
+  height: 2em;
+}
+.continuer {
+ 
+  width: fit-content;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(198, 212, 198 ,0.5);
+  box-shadow: 10px 10px 5px lightblue ;
+  
+}
+.continuers {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.calculations {
+  display: flex;
+  flex-direction: column;
+  padding: 2px;
+  gap: 4px;
+  margin-bottom: 4px;
+  margin-left: -4px;
+  align-self: flex-end;
+}
+#display {
+  position: relative;
+  top: 50%;
+  left: 1%;
+  width: 130%;
+  text-align: center;
+}
+
+
+
